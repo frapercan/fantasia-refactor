@@ -1,0 +1,16 @@
+# config.yaml
+base_directories:
+  project_root: "/home/bioxaxi/PycharmProjects/fantasia-refactor" # Tu path aquí
+  scripts: "fantasia/scripts"
+  data: "data"
+  results: "results"
+  config: "config"
+
+parameters:
+  infile: "data/input/complete.fasta"
+  outpath: "results/"
+  prefix: "test_"
+  mode: "GPU"
+  models:
+    seqvec: false
+    prott5: true
